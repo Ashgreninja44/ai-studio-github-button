@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "AI Studio GitHub Button",
+  "version": "1.0.0",
+  "description": "Restores the GitHub deploy button inside Google AI Studio.",
+  
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+  "permissions": [],
+
+  "host_permissions": [
+    "https://aistudio.google.com/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://aistudio.google.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "github.svg"
+      ],
+      "matches": ["https://aistudio.google.com/*"]
+    }
+  ]
+}

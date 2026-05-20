@@ -1,2 +1,16 @@
-# ai-studio-github-button
-Restore the GitHub shortcut inside Google AI Studio 🚀 Adds a native-looking GitHub button back to the toolbar for faster deployment workflows. Supports dark/light mode, works automatically in playground pages, and is lightweight, privacy-friendly, and tracker-free.
+# AI Studio GitHub Button
+
+Restores the GitHub deploy shortcut inside Google AI Studio.
+
+## Features
+- Quick GitHub access
+- Native-looking UI
+- Dark/light mode support
+- Lightweight
+
+## Installation
+1. Download ZIP
+2. Open chrome://extensions
+3. Enable Developer Mode
+4. Load unpacked
+5. Select extension folder

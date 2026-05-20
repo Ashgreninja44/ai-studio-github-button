@@ -1,0 +1,23 @@
+#custom-github-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-left: 12px;
+    padding: 8px 14px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #24292e;
+    color: white;
+
+    cursor: pointer;
+    font-weight: 600;
+    z-index: 9999;
+}
+
+#custom-github-btn img {
+    width: 18px;
+    height: 18px;
+}
