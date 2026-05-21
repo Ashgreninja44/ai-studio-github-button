@@ -27,7 +27,7 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "github.svg"
+        "github.png"
       ],
       "matches": ["https://aistudio.google.com/*"]
     }
